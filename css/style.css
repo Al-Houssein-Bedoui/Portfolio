@@ -1,0 +1,29 @@
+.gradient-background {
+    background: linear-gradient(300deg,  #D7C0AE, #96B6C5, #EEE0C9);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  hr {
+    border: dotted #102C57 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 1rem auto;
+}
+h5{
+    color: #DAC0A3;
+}
+p{
+    text-decoration: none;
+}
